@@ -1,3 +1,4 @@
+
 # Basic Statistical Concepts
 This note outlines some of the basic statistical concepts, explained in simple terms without substantial mathematical equations and derivations (yay!), which I had to learn for my interests and career development.
 
@@ -12,3 +13,8 @@ The standard deviation of all sample mean's mean: quantifies how far the sample 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;\sigma^2=\frac{\sum_{i=1}^{i=N} (x_{i}-\tilde{x})^2}{N}" title="Equation for variance">
 
 #### Hypothesis Testing
+
+
+```python
+
+```
