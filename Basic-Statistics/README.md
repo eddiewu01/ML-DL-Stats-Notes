@@ -1,5 +1,5 @@
 # Basic Statistical Concepts
-This note outlines some of the basic statistical concepts, explained in simple terms without substantial mathematical equations and derivations (yay!), which I had to learn for my interests and career development.
+This note outlines some of the basic statistical concepts, explained in simple terms without substantial mathematical equations and derivations (yay!).
 
 ## Standard deviation
 It quantifies how much the data is spread out. 
@@ -44,3 +44,27 @@ X ~ N(μ, σ<sup>2</sup>)
 Standard normal distribution is Z ~ N(0, 1) where 0 is the mean and 1 is the variance.
 
 ## P-Value
+Assume null hypothesis is true, the probability of observing a more extreme test statistics in the direction of alternative hypothesis
+
+α is the significance level: The probability of making a type I error; When p-value < α we reject null hypothesis
+
+Example <br />
+Two tailed hypothesis testing: H<sub>0</sub>: μ=3, H<sub>a</sub>: μ≠3 <br />
+![](imgs/two_tailed_hypothesis_test.jpg) <br />
+If p-value = 0.0127, then we must double it for 2 tailed testing, which would be 0.0127*2 and then we compare it to α
+
+## Z Table
+The standard normal table shows the area under the curve. For a continuous variable, the probability they are equal to something is 0!
+
+Example <br />
+P<Z < 1.43)
+
+
+## Power
+The ability to reject false null hypothesis, also equals to 1 - Probability(Type II Error) <br />
+In other words, it's the probability of rejecting null hypothesis when alternative hypothesis is true.
+
+The larger the sample size, the higher the power!
+
+## Sample size calculation
+
